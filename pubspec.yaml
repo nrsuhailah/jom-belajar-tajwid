@@ -1,0 +1,83 @@
+name: tajwid_master
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  font_awesome_flutter: ^10.7.0
+  sqflite: ^2.3.0
+  path: ^1.9.1
+  provider: ^6.1.1
+  shared_preferences: ^2.2.2
+  confetti: ^0.7.0
+  audioplayers: ^5.2.1
+  curved_navigation_bar: ^1.0.4
+  flutter_local_notifications: ^17.0.0
+  sqflite_common_ffi: ^2.3.0
+  timezone: ^0.9.4
+  flutter_timezone: ^3.0.0
+  permission_handler: ^11.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_native_splash: ^2.3.10
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/background.png
+    - assets/images/background_4.jpg
+    - assets/images/splash_logo.png
+    - assets/images/logo.png
+    - assets/images/e-book1.png
+    - assets/images/e-book2.png
+    - assets/images/halq_diagram.jpg
+    - assets/images/lisani_diagram.jpg
+    - assets/images/syafataini_diagram.jpg
+    - assets/images/khaisyum_diagram.jpg
+    - assets/images/jauf_diagram.jpg
+    - assets/images/flag_my.png
+    - assets/images/flag_uk.png
+    - assets/sounds/quiz_bgm.mp3
+    - assets/sounds/
+    - assets/fonts/
+
+  fonts:
+    - family: Amiri
+      fonts:
+        - asset: assets/fonts/Amiri-Regular.ttf
+        - asset: assets/fonts/Amiri-Bold.ttf
+          weight: 700
+    - family: Cormorant
+      fonts:
+        - asset: assets/fonts/Cormorant-Italic-VariableFont_wght.ttf
+
+flutter_native_splash:
+  color: "#001f5b"
+  image: assets/images/splash_logo.png
+  android: true
+  ios: true
+  web: false
+  fullscreen: true
+  android_12:
+    image: assets/images/splash_logo.png
+    color: "#001f5b"
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/splash_logo.png"
+  adaptive_icon_background: "#001f5b"
+  adaptive_icon_foreground: "assets/images/splash_logo.png"
+  min_sdk_android: 21
+  remove_alpha_ios: true
